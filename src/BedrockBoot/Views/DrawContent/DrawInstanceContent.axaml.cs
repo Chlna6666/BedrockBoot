@@ -85,6 +85,9 @@ public partial class DrawInstanceContent : UserControl
                 case "Info":
                     InstanceFrame.NavigateTo(new InstanceInfo(VersionInfo));
                     break;
+                case "UserConfig":
+                    InstanceFrame.NavigateTo(new InstanceUserConfig(VersionInfo));
+                    break;
                 case "Mods":
                     InstanceFrame.NavigateTo(new InstanceMods(VersionInfo));
                     break;

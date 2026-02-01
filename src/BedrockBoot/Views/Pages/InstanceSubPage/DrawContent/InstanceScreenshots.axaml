@@ -9,8 +9,7 @@
              x:Class="BedrockBoot.Views.Pages.InstanceSubPage.DrawContent.InstanceScreenshots">
    <Grid RowDefinitions="Auto,*">
         <items:BorderCard Grid.Row="0"
-                          Width="400"
-                          HorizontalAlignment="Left"
+                          HorizontalAlignment="Stretch"
                           Margin="20,8,20,10">
             <Grid ColumnDefinitions="4*">
                 <DockPanel Grid.Column="0"

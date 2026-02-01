@@ -1,0 +1,55 @@
+﻿<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:items="clr-namespace:OnePointUI.Avalonia.Styling.Controls.OnePointControls.Items;assembly=OnePointUI.Avalonia"
+             xmlns:onePointControls="clr-namespace:OnePointUI.Avalonia.Styling.Controls.OnePointControls;assembly=OnePointUI.Avalonia"
+             xmlns:navigation="clr-namespace:OnePointUI.Avalonia.Styling.Controls.OnePointControls.Navigation;assembly=OnePointUI.Avalonia"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+             x:Class="BedrockBoot.Views.Pages.InstanceSubPage.DrawContent.InstanceUserConfig">
+    <Grid RowDefinitions="Auto,*">
+        
+        <Grid Grid.Row="0"
+              ColumnDefinitions="Auto,*">
+            <items:BorderCard Grid.Column="0"
+                              Margin="20,8,12,10"
+                              Padding="10,0">
+                <ListBox Classes="Segmented"
+                         Name="TypeSel"
+                         SelectedIndex="0">
+                    <ListBoxItem Classes="Segmented"
+                                 Tag="Resource">
+                        <StackPanel Orientation="Horizontal">
+                            <onePointControls:FontIcon Glyph="&#xF133;"
+                                                       VerticalAlignment="Center"
+                                                       FontSize="16"></onePointControls:FontIcon>
+                            <TextBlock Margin="8,4,0,4">玩家皮肤</TextBlock>
+                        </StackPanel>
+                    </ListBoxItem>
+                </ListBox>
+            </items:BorderCard>
+            <items:BorderCard Grid.Column="1"
+                              HorizontalAlignment="Stretch"
+                              Margin="0,8,20,10">
+                <Grid ColumnDefinitions="4*">
+                    <DockPanel Grid.Column="0"
+                               Margin="0,0,0,0">
+                        <onePointControls:FontIcon Glyph="&#xEBDA;"
+                                                   VerticalAlignment="Center"
+                                                   FontSize="16"
+                                                   Margin="5,5,12,5"></onePointControls:FontIcon>
+                        
+                        <ComboBox HorizontalAlignment="Stretch"
+                                  Name="UserChooseBox"
+                                  SelectionChanged="UserChooseBox_OnSelectionChanged"
+                                  SelectedIndex="0"
+                                  DockPanel.Dock="Right"></ComboBox>
+                    </DockPanel>
+                </Grid>
+            </items:BorderCard>
+        </Grid>
+        
+        <navigation:NavigationFrame Grid.Row="1"
+                                    Name="NavigationFrame"/>
+    </Grid>
+</UserControl>
