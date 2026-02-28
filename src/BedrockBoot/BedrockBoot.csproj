@@ -63,6 +63,7 @@
         <ProjectReference Include="..\BedrockBoot.Inject\BedrockBoot.Inject.csproj" />
         <ProjectReference Include="..\BedrockBoot.LevelNbt\BedrockBoot.LevelNbt.csproj" />
         <ProjectReference Include="..\BedrockBoot.LeviLamina\BedrockBoot.LeviLamina.csproj" />
+        <ProjectReference Include="..\Material.Avalonia\Material.Avalonia\Material.Avalonia.csproj" />
         <ProjectReference Include="..\OnePointUI.Avalonia\src\OnePointUI.Avalonia\OnePointUI.Avalonia.csproj" />
         <ProjectReference Include="..\PaperConnect\src\PaperConnect.Core\PaperConnect.Core.csproj" />
         <ProjectReference Include="..\PeNet\src\PeNet\PeNet.csproj" />

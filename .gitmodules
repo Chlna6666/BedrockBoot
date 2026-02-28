@@ -10,3 +10,6 @@
 [submodule "src/PaperConnect"]
 	path = src/PaperConnect
 	url = https://github.com/Round-Studio/PaperConnect.git
+[submodule "src/Material.Avalonia"]
+	path = src/Material.Avalonia
+	url = https://github.com/Round-Studio/Material.Avalonia.git
