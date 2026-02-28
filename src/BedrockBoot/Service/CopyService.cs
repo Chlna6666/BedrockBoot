@@ -6,7 +6,7 @@ using BedrockBoot.Base.Enum;
 using BedrockBoot.Models.Global;
 using BedrockBoot.Models.Pack.Game.ResourcePack.CurseForge;
 using BedrockBoot.Views.DrawContent;
-using OnePointUI.Avalonia.Base.Entry;
+using Material.Avalonia.Entry;
 using OnePointUI.Avalonia.Styling.Controls.OnePointControls.Dialog;
 
 namespace BedrockBoot.Service;

@@ -3,7 +3,7 @@ using Avalonia.Styling;
 using BedrockBoot.Base.Enum;
 using BedrockBoot.Interface;
 using BedrockBoot.Models.Global;
-using OnePointUI.Avalonia.Style.Core;
+using Material.Avalonia.Core;
 
 namespace BedrockBoot.Views.Pages.SetupPage;
 
@@ -24,10 +24,7 @@ public partial class SetupStyle : ISetting
             GlobalModel.Config.Data.StyleConfig.LightThemeType = (ThemeModelEnum)ChooseThemeBox.SelectedIndex;
             GlobalModel.Config.Save();
 
-            ThemeManager.Instance.SetThemeModel(
-                GlobalModel.Config.Data.StyleConfig.LightThemeType == ThemeModelEnum.Light
-                    ? ThemeVariant.Light
-                    : ThemeVariant.Dark);
+            ThemeManager.ToggleDarkMode(GlobalModel.Config.Data.StyleConfig.LightThemeType != ThemeModelEnum.Light);
         }
     }
 }

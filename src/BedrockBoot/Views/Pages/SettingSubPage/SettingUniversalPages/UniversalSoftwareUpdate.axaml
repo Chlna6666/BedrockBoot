@@ -2,8 +2,9 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-             xmlns:onePointControls="clr-namespace:OnePointUI.Avalonia.Styling.Controls.OnePointControls;assembly=OnePointUI.Avalonia"
+             xmlns:onePointControls="clr-namespace:Material.Avalonia.Theme.Controls;assembly=Material.Avalonia"
              xmlns:notice="clr-namespace:OnePointUI.Avalonia.Styling.Controls.OnePointControls.Notice;assembly=OnePointUI.Avalonia"
+             xmlns:notice1="clr-namespace:OnePointUI.Avalonia.Styling.Controls.OnePointControls.Notice;assembly=Material.Avalonia"
              mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
              x:Class="BedrockBoot.Views.Pages.SettingSubPage.SettingUniversalPages.UniversalSoftwareUpdate">
     <ScrollViewer>
@@ -46,7 +47,7 @@
 
             <Grid Grid.Row="1"
                   RowDefinitions="*,Auto">
-                <notice:InfoCard HorizontalAlignment="Center"
+                <notice1:InfoCard HorizontalAlignment="Center"
                                  VerticalAlignment="Center"
                                  Glyph="&#xEC61;"
                                  IsVisible="False"

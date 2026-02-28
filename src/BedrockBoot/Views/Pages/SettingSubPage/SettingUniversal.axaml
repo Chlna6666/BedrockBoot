@@ -2,7 +2,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-             xmlns:onePointControls="clr-namespace:OnePointUI.Avalonia.Styling.Controls.OnePointControls;assembly=OnePointUI.Avalonia"
+             xmlns:onePointControls="clr-namespace:Material.Avalonia.Theme.Controls;assembly=Material.Avalonia"
              mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
              x:Class="BedrockBoot.Views.Pages.SettingSubPage.SettingUniversal">
     <ScrollViewer>
@@ -48,8 +48,7 @@
             <onePointControls:SettingCard Margin="5, 0"
                                           Header="{DynamicResource Setting.Universal.GatherInfo.Title}"
                                           Description="{DynamicResource Setting.Universal.GatherInfo.Desc}"
-                                          IsClickable="True"
-                                          IsShowActionIcon="False"
+                                                  IsShowActionIcon="False"
                                           Glyph="&#xE946;">
                 <ToggleSwitch Name="GatInfo"
                               IsCheckedChanged="GatInfo_OnIsCheckedChanged"></ToggleSwitch>
@@ -58,16 +57,14 @@
             <onePointControls:SettingCard Margin="5, 0"
                                           Header="{DynamicResource Settings.Download.SoftwareUpdate.Title}"
                                           Description="{DynamicResource Settings.Download.SoftwareUpdate.Desc}"
-                                          IsClickable="True"
-                                          Name="SoftwareUpdate"
+                                                  Name="SoftwareUpdate"
                                           Click="SoftwareUpdate_OnClick"
                                           Glyph="&#xE895;" />
 
             <onePointControls:SettingCard Margin="5, 0"
                                           Header="{DynamicResource Settings.Universal.Debug.Title}"
                                           Description="{DynamicResource Settings.Universal.Debug.Desc}"
-                                          IsClickable="True"
-                                          Name="DebugBtn"
+                                                  Name="DebugBtn"
                                           Click="DebugBtn_OnClick"
                                           Glyph="&#xEBE8;" />
         </StackPanel>

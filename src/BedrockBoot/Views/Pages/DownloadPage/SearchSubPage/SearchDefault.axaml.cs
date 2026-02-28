@@ -10,7 +10,7 @@ using BedrockBoot.Models.Global;
 using BedrockBoot.Models.Helper;
 using BedrockBoot.Views.DrawContent;
 using BedrockLauncher.Core;
-using OnePointUI.Avalonia.Base.Entry;
+using Material.Avalonia.Entry;
 
 namespace BedrockBoot.Views.Pages.DownloadPage.SearchSubPage;
 

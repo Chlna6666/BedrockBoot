@@ -7,8 +7,8 @@ using BedrockBoot.Models.Global;
 using BedrockBoot.Services;
 using BedrockLauncher.Core;
 using BedrockLauncher.Core.CoreOption;
-using OnePointUI.Avalonia.Base.Entry;
-using OnePointUI.Avalonia.Base.Enum;
+using Material.Avalonia.Entry;
+using Material.Avalonia.Enum;
 using OnePointUI.Avalonia.Styling.Controls.OnePointControls.Dialog;
 
 namespace BedrockBoot.Views.TaskItem;

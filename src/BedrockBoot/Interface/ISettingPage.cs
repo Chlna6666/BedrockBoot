@@ -1,5 +1,5 @@
 ﻿using System.Collections.Generic;
-using OnePointUI.Avalonia.Base.Entry;
+using Material.Avalonia.Entry;
 
 namespace BedrockBoot.Interface;
 

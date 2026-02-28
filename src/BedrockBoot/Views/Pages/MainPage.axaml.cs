@@ -12,7 +12,7 @@ using BedrockBoot.Views.DrawContent;
 using BedrockBoot.Views.Pages.DownloadPage;
 using BedrockBoot.Views.Pages.MainSubPage;
 using BedrockBoot.Views.TaskItem;
-using OnePointUI.Avalonia.Base.Entry;
+using Material.Avalonia.Entry;
 using OnePointUI.Avalonia.Styling.Controls.OnePointControls.Dialog;
 using OnePointUI.Avalonia.Styling.Controls.OnePointControls.Navigation.SelectBar;
 using Round.SDK.Entry.BedrockBoot;

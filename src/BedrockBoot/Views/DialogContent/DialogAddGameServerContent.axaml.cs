@@ -1,7 +1,7 @@
 ﻿using System;
 using Avalonia.Controls;
 using BedrockBoot.Base.Entry.Game.Pack.Server;
-using OnePointUI.Avalonia.Base.Entry;
+using Material.Avalonia.Entry;
 
 namespace BedrockBoot.Views.DialogContent;
 

@@ -7,7 +7,7 @@ using Avalonia.Threading;
 using BedrockBoot.Models.Global;
 using BedrockBoot.Views.Control.Items.Multiplayer;
 using BedrockBoot.Views.Pages.MainSubPage;
-using OnePointUI.Avalonia.Base.Entry;
+using Material.Avalonia.Entry;
 using OnePointUI.Avalonia.Styling.Controls.OnePointControls;
 using PaperConnect.Core.Enum;
 

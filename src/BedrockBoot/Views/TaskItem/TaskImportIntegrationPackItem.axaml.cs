@@ -8,7 +8,7 @@ using BedrockBoot.Base.Entry.Progress;
 using BedrockBoot.Base.Enum;
 using BedrockBoot.Models.Global;
 using BedrockBoot.Models.Pack.Game.Integration;
-using OnePointUI.Avalonia.Base.Entry;
+using Material.Avalonia.Entry;
 
 namespace BedrockBoot.Views.TaskItem;
 

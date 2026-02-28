@@ -5,7 +5,7 @@ using Avalonia.Controls;
 using Avalonia.Platform.Storage;
 using BedrockBoot.Base.Entry;
 using BedrockBoot.Base.Entry.Config;
-using OnePointUI.Avalonia.Base.Entry;
+using Material.Avalonia.Entry;
 using OnePointUI.Avalonia.Styling.Controls.OnePointControls.Dialog;
 using Round.SDK.Entity;
 

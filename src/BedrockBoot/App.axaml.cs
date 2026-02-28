@@ -19,7 +19,8 @@ using BedrockBoot.Models.Global;
 using BedrockBoot.Models.Style;
 using BedrockBoot.ViewModels;
 using BedrockBoot.Views.Windows;
-using OnePointUI.Avalonia.Style.Core;
+using Material.Avalonia.Core;
+using Monet.Shared.Enums;
 using Round.SDK.Entity;
 using Application = Avalonia.Application;
 using ResourceDictionary = Avalonia.Controls.ResourceDictionary;
@@ -38,7 +39,6 @@ public class App : Application
 
         ServicePointManager.DefaultConnectionLimit = 1024;
 
-        ThemeManager.Initialize(this);
         AvaloniaXamlLoader.Load(this);
         
         I18nManager.Instance.SystemLanguage(GlobalModel.Config.Data.Language);
@@ -130,12 +130,9 @@ public class App : Application
     {
         try
         {
-            ThemeManager.Instance.SetAccentColor(
-                Color.Parse(AccentColor.Colors[GlobalModel.Config.Data.StyleConfig.AccentColorIndex]));
-            ThemeManager.Instance.SetThemeModel(
-                GlobalModel.Config.Data.StyleConfig.LightThemeType == ThemeModelEnum.Light
-                    ? ThemeVariant.Light
-                    : ThemeVariant.Dark);
+            ThemeManager.ChangeTheme(
+                Color.Parse(AccentColor.Colors[GlobalModel.Config.Data.StyleConfig.AccentColorIndex]), Variant.Default,
+                GlobalModel.Config.Data.StyleConfig.LightThemeType != ThemeModelEnum.Light);
         }
         catch
         {

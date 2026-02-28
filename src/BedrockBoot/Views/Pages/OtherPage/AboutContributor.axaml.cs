@@ -11,7 +11,7 @@ using BedrockBoot.Models.Global;
 using BedrockBoot.Views.Control.Items;
 using BedrockBoot.Views.Pages.MainSubPage;
 using Octokit;
-using OnePointUI.Avalonia.Base.Entry;
+using Material.Avalonia.Entry;
 
 namespace BedrockBoot.Views.Pages.OtherPage;
 

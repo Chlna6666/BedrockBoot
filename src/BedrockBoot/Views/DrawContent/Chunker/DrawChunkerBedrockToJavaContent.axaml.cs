@@ -11,7 +11,7 @@ using BedrockBoot.Chunker.Base.Enum;
 using BedrockBoot.Models.Pack.Chunker;
 using BedrockBoot.Views.DialogContent;
 using BedrockBoot.Views.DialogContent.Chunker;
-using OnePointUI.Avalonia.Base.Enum;
+using Material.Avalonia.Enum;
 using OnePointUI.Avalonia.Styling.Controls.OnePointControls.Dialog;
 
 namespace BedrockBoot.Views.DrawContent.Chunker;

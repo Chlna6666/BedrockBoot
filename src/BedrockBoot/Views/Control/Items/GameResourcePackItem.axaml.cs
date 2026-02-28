@@ -7,7 +7,7 @@ using Avalonia.Media.Imaging;
 using Avalonia.Threading;
 using BedrockBoot.Base.Entry.Game.Pack.ResourcePack;
 using BedrockBoot.Models.Global;
-using OnePointUI.Avalonia.Base.Entry;
+using Material.Avalonia.Entry;
 using OnePointUI.Avalonia.Styling.Controls.OnePointControls.Dialog;
 
 namespace BedrockBoot.Views.Control.Items;

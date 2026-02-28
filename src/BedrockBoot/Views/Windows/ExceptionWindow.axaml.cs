@@ -3,11 +3,10 @@ using Avalonia.Controls;
 using Avalonia.Interactivity;
 using Avalonia.Platform.Storage;
 using BedrockBoot.Entity;
-using OnePointUI.Avalonia.Styling.Controls.OnePointControls.WindowFrame;
 
 namespace BedrockBoot.Views.Windows;
 
-public partial class ExceptionWindow : OnePointWindow
+public partial class ExceptionWindow : Window
 {
     private I18nManager i18n => I18nManager.Instance;
 

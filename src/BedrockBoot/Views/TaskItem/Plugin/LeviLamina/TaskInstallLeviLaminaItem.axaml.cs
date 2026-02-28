@@ -8,7 +8,7 @@ using BedrockBoot.LeviLamina.Base.Entry.Porgress;
 using BedrockBoot.LeviLamina.Base.Enum;
 using BedrockBoot.LeviLamina.Models.Installer;
 using BedrockBoot.Models.Global;
-using OnePointUI.Avalonia.Base.Entry;
+using Material.Avalonia.Entry;
 using OnePointUI.Avalonia.Styling.Controls.OnePointControls.Dialog;
 
 namespace BedrockBoot.Views.TaskItem.Plugin.LeviLamina;

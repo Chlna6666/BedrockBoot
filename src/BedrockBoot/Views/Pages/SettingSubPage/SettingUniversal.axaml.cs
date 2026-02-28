@@ -6,7 +6,7 @@ using BedrockBoot.Interface;
 using BedrockBoot.Models.Global;
 using BedrockBoot.Views.Pages.MainSubPage;
 using BedrockBoot.Views.Pages.SettingSubPage.SettingUniversalPages;
-using OnePointUI.Avalonia.Base.Entry;
+using Material.Avalonia.Entry;
 
 namespace BedrockBoot.Views.Pages.SettingSubPage;
 

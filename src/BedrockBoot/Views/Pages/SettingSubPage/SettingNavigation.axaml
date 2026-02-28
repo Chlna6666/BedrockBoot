@@ -2,7 +2,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-             xmlns:onePointControls="clr-namespace:OnePointUI.Avalonia.Styling.Controls.OnePointControls;assembly=OnePointUI.Avalonia"
+             xmlns:onePointControls="clr-namespace:Material.Avalonia.Theme.Controls;assembly=Material.Avalonia"
              mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
              x:Class="BedrockBoot.Views.Pages.SettingSubPage.SettingNavigation">
     <ScrollViewer>
@@ -15,40 +15,35 @@
                                               Description="{DynamicResource Settings.Nav.Personalization.Desc}"
                                               Name="SetPersonalization"
                                               Click="SetPersonalization_OnClick"
-                                              IsClickable="True"
-                                              Glyph="&#xEE56;" />
+                                                          Glyph="&#xEE56;" />
 
                 <onePointControls:SettingCard Margin="5, 0"
                                               Header="{DynamicResource Settings.Nav.Download.Title}"
                                               Description="{DynamicResource Settings.Nav.Download.Desc}"
                                               Name="SetDownload"
                                               Click="SetDownload_OnClick"
-                                              IsClickable="True"
-                                              Glyph="&#xE896;" />
+                                                          Glyph="&#xE896;" />
 
                 <onePointControls:SettingCard Margin="5, 0"
                                               Header="{DynamicResource Settings.Nav.Game.Title}"
                                               Description="{DynamicResource Settings.Nav.Game.Desc}"
                                               Name="SetGame"
                                               Click="SetGame_OnClick"
-                                              IsClickable="True"
-                                              Glyph="&#xE7FC;" />
+                                                          Glyph="&#xE7FC;" />
 
                 <onePointControls:SettingCard Margin="5, 0"
                                               Header="{DynamicResource Settings.Nav.Universal.Title}"
                                               Description="{DynamicResource Settings.Nav.Universal.Desc}"
                                               Name="Universal"
                                               Click="Universal_OnClick"
-                                              IsClickable="True"
-                                              Glyph="&#xE71D;" />
+                                                          Glyph="&#xE71D;" />
 
                 <onePointControls:SettingCard Margin="5, 0"
                                               Header="{DynamicResource Settings.Nav.About.Title}"
                                               Description="{DynamicResource Settings.Nav.About.Desc}"
                                               Name="AboutUs"
                                               Click="AboutUs_OnClick"
-                                              IsClickable="True"
-                                              Glyph="&#xE946;" />
+                                                          Glyph="&#xE946;" />
             </StackPanel>
             
             <StackPanel Grid.Column="1"

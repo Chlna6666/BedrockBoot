@@ -16,8 +16,8 @@ using BedrockBoot.Models.Pack.Chunker;
 using BedrockBoot.Models.Pack.Game.Archive;
 using BedrockBoot.Views.DialogContent;
 using BedrockBoot.Views.DialogContent.Chunker;
-using OnePointUI.Avalonia.Base.Entry;
-using OnePointUI.Avalonia.Base.Enum;
+using Material.Avalonia.Entry;
+using Material.Avalonia.Enum;
 using OnePointUI.Avalonia.Styling.Controls.OnePointControls.Dialog;
 using Window = Avalonia.Controls.Window;
 

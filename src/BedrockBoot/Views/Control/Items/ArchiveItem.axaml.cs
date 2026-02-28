@@ -8,7 +8,7 @@ using Avalonia.Media.Imaging;
 using Avalonia.Platform.Storage;
 using BedrockBoot.Base.Entry.Game.Pack.Archive;
 using BedrockBoot.Models.Global;
-using OnePointUI.Avalonia.Base.Entry;
+using Material.Avalonia.Entry;
 using Round.SDK.Helper;
 
 namespace BedrockBoot.Views.Control.Items;

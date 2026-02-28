@@ -9,7 +9,7 @@ using BedrockBoot.Base.Entry.Game.Pack.Archive;
 using BedrockBoot.Models.Global;
 using BedrockBoot.Models.Pack.Game.Archive;
 using BedrockBoot.Views.Control.Items;
-using OnePointUI.Avalonia.Base.Entry;
+using Material.Avalonia.Entry;
 
 namespace BedrockBoot.Views.Pages.InstanceSubPage.DrawContent;
 

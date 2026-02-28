@@ -10,7 +10,7 @@ using BedrockBoot.Base.Entry.Progress;
 using BedrockBoot.Core.Models.Download;
 using BedrockBoot.Models.Global;
 using Octokit;
-using OnePointUI.Avalonia.Base.Entry;
+using Material.Avalonia.Entry;
 using Path = System.IO.Path;
 
 namespace BedrockBoot.Views.TaskItem;

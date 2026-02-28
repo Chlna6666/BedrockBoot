@@ -2,10 +2,12 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-             xmlns:items="clr-namespace:OnePointUI.Avalonia.Styling.Controls.OnePointControls.Items;assembly=OnePointUI.Avalonia"
-             xmlns:onePointControls="clr-namespace:OnePointUI.Avalonia.Styling.Controls.OnePointControls;assembly=OnePointUI.Avalonia"
+             xmlns:items="clr-namespace:Material.Avalonia.Theme.Controls;assembly=Material.Avalonia"
+             xmlns:onePointControls="clr-namespace:Material.Avalonia.Theme.Controls;assembly=Material.Avalonia"
              xmlns:notice="clr-namespace:OnePointUI.Avalonia.Styling.Controls.OnePointControls.Notice;assembly=OnePointUI.Avalonia"
              xmlns:navigation="clr-namespace:OnePointUI.Avalonia.Styling.Controls.OnePointControls.Navigation;assembly=OnePointUI.Avalonia"
+             xmlns:notice1="clr-namespace:OnePointUI.Avalonia.Styling.Controls.OnePointControls.Notice;assembly=Material.Avalonia"
+             xmlns:navigation1="clr-namespace:OnePointUI.Avalonia.Styling.Controls.OnePointControls.Navigation;assembly=Material.Avalonia"
              mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
              x:Class="BedrockBoot.Views.Pages.DownloadSubPage.DownloadAssetsPage">
     <Grid RowDefinitions="Auto,*">
@@ -42,20 +44,20 @@
             </Grid>
         </items:BorderCard>
 
-        <notice:LoadCard Grid.Row="1" HorizontalAlignment="Center"
+        <notice1:LoadCard Grid.Row="1" HorizontalAlignment="Center"
                          VerticalAlignment="Center"
                          BigTitle="{DynamicResource Download.Assets.Status.Loading.Title}"
                          Message="{DynamicResource Download.Assets.Status.Loading.Message}"
                          Name="LoadingRing" />
 
-        <notice:InfoCard Grid.Row="1" VerticalAlignment="Center"
+        <notice1:InfoCard Grid.Row="1" VerticalAlignment="Center"
                          HorizontalAlignment="Center"
                          Glyph="&#xE822;"
                          BigTitle="{DynamicResource Download.Assets.Status.Empty.Title}"
                          Message="{DynamicResource Download.Assets.Status.Empty.Message}"
                          Name="NoneBox" />
 
-        <navigation:LotsPageFrame Grid.Row="1"
+        <navigation1:LotsPageFrame Grid.Row="1"
                                   Name="ResultPage" />
     </Grid>
 </UserControl>

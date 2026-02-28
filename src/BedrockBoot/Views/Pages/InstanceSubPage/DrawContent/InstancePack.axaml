@@ -2,9 +2,10 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-             xmlns:items="clr-namespace:OnePointUI.Avalonia.Styling.Controls.OnePointControls.Items;assembly=OnePointUI.Avalonia"
-             xmlns:onePointControls="clr-namespace:OnePointUI.Avalonia.Styling.Controls.OnePointControls;assembly=OnePointUI.Avalonia"
+             xmlns:items="clr-namespace:Material.Avalonia.Theme.Controls;assembly=Material.Avalonia"
+             xmlns:onePointControls="clr-namespace:Material.Avalonia.Theme.Controls;assembly=Material.Avalonia"
              xmlns:notice="clr-namespace:OnePointUI.Avalonia.Styling.Controls.OnePointControls.Notice;assembly=OnePointUI.Avalonia"
+             xmlns:notice1="clr-namespace:OnePointUI.Avalonia.Styling.Controls.OnePointControls.Notice;assembly=Material.Avalonia"
              mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
              x:Class="BedrockBoot.Views.Pages.InstanceSubPage.DrawContent.InstancePack">
     <Grid RowDefinitions="Auto,*,Auto">
@@ -80,7 +81,7 @@
                         Name="ResultBox" />
         </ScrollViewer>
 
-        <notice:InfoCard Grid.Row="1"
+        <notice1:InfoCard Grid.Row="1"
                          HorizontalAlignment="Center"
                          VerticalAlignment="Center"
                          Name="NullBox"
@@ -88,12 +89,12 @@
                          BigTitle="{DynamicResource Instance.Packs.Empty.Title}"
                          Message="{DynamicResource Instance.Packs.Empty.Message}" />
 
-        <notice:LoadCard Grid.Row="1"
-                         HorizontalAlignment="Center"
-                         VerticalAlignment="Center"
-                         Name="LoadBox"
-                         BigTitle="{DynamicResource Shared.Status.Wait}"
-                         Message="{DynamicResource Instance.Packs.Status.Loading}" />
+        <notice1:LoadCard Grid.Row="1"
+                          HorizontalAlignment="Center"
+                          VerticalAlignment="Center"
+                          Name="LoadBox"
+                          BigTitle="{DynamicResource Shared.Status.Wait}"
+                          Message="{DynamicResource Instance.Packs.Status.Loading}" />
 
         <Grid Grid.Row="2"
               ColumnDefinitions="*"

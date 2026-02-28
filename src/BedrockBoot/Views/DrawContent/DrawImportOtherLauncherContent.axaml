@@ -3,6 +3,7 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              xmlns:notice="clr-namespace:OnePointUI.Avalonia.Styling.Controls.OnePointControls.Notice;assembly=OnePointUI.Avalonia"
+             xmlns:notice1="clr-namespace:OnePointUI.Avalonia.Styling.Controls.OnePointControls.Notice;assembly=Material.Avalonia"
              mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
              x:Class="BedrockBoot.Views.DrawContent.DrawImportOtherLauncherContent">
     <Grid>
@@ -11,7 +12,7 @@
                         Spacing="10"
                         Margin="20" />
         </ScrollViewer>
-        <notice:InfoCard BigTitle="{DynamicResource Draw.ImportLauncher.Status.None.Title}"
+        <notice1:InfoCard BigTitle="{DynamicResource Draw.ImportLauncher.Status.None.Title}"
                          Message="{DynamicResource Draw.ImportLauncher.Status.None.Message}"
                          Name="NoneBox"
                          HorizontalAlignment="Center"

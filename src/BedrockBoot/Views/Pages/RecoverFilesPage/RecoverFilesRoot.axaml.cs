@@ -1,7 +1,7 @@
 ﻿using Avalonia;
 using Avalonia.Controls;
 using Avalonia.Markup.Xaml;
-using OnePointUI.Avalonia.Base.Enum;
+using Material.Avalonia.Controls;
 using OnePointUI.Avalonia.Styling.Controls.OnePointControls.Navigation;
 
 namespace BedrockBoot.Views.Pages.RecoverFilesPage;

@@ -1,28 +1,14 @@
-﻿<windowFrame:OnePointWindow xmlns="https://github.com/avaloniaui"
+﻿<Window xmlns="https://github.com/avaloniaui"
                             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
                             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
                             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-                            xmlns:windowFrame="clr-namespace:OnePointUI.Avalonia.Styling.Controls.OnePointControls.WindowFrame;assembly=OnePointUI.Avalonia"
-                            xmlns:onePointControls="clr-namespace:OnePointUI.Avalonia.Styling.Controls.OnePointControls;assembly=OnePointUI.Avalonia"
+                            xmlns:onePointControls="clr-namespace:Material.Avalonia.Theme.Controls;assembly=Material.Avalonia"
                             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
                             x:Class="BedrockBoot.Views.Windows.ExceptionWindow"
-                            IsMaxBtn="False"
-                            IsMinBtn="False"
                             WindowStartupLocation="CenterOwner"
                             Width="800" Height="500"
                             MinWidth="800" MinHeight="500"
-                            Title="BedrockBoot">
-
-    <windowFrame:OnePointWindow.TitleBarContent>
-        <onePointControls:LabelBox Text="{DynamicResource ExceptionWindow.TitleBar}"
-                                   FontSize="14"
-                                   Foreground="White"
-                                   Background="DarkRed"
-                                   Margin="0,0,5,0"
-                                   VerticalAlignment="Center" />
-    </windowFrame:OnePointWindow.TitleBarContent>
-
-    <windowFrame:OnePointWindow.MainContent>
+                            Title="BedrockBoot 崩溃报告">
         <Grid>
             <Grid.RowDefinitions>
                 <RowDefinition Height="Auto" />
@@ -95,5 +81,4 @@
                                  NavigateUri="https://github.com/Round-Studio/BedrockBoot/issues" />
             </StackPanel>
         </Grid>
-    </windowFrame:OnePointWindow.MainContent>
-</windowFrame:OnePointWindow>
+</Window>

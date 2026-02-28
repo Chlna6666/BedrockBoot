@@ -5,7 +5,7 @@ using Avalonia.Interactivity;
 using Avalonia.Media;
 using BedrockBoot.Core.Interface.Instance;
 using BedrockBoot.Models.Helper;
-using OnePointUI.Avalonia.Base.Entry;
+using Material.Avalonia.Entry;
 
 namespace BedrockBoot.Views.Control.Items;
 

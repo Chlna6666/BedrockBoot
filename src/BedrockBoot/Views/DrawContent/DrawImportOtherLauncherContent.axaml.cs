@@ -4,7 +4,8 @@ using Avalonia.Controls;
 using Avalonia.Media.Imaging;
 using Avalonia.Platform;
 using BedrockBoot.Models.Global;
-using OnePointUI.Avalonia.Base.Entry;
+using Material.Avalonia.Entry;
+using Material.Avalonia.Theme.Controls;
 using OnePointUI.Avalonia.Styling.Controls.OnePointControls;
 
 namespace BedrockBoot.Views.DrawContent;
@@ -37,8 +38,6 @@ public partial class DrawImportOtherLauncherContent : UserControl
                 
                 var item = new SettingCard
                 {
-                    IsClickable = true,
-                    // 假设框架属性名为 IsFontIcon，设为 false 以显示图片
                     IsFontIcon = false, 
                     ImageIcon = LoadResourceBitmap(launcher.IconUrl),
                     Header = launcher.Name,

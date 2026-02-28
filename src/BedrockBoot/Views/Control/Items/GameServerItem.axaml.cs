@@ -7,7 +7,7 @@ using Avalonia.Threading;
 using BedrockBoot.Base.Entry.Game.Pack.Server;
 using BedrockBoot.Models.Pack.Game.Server;
 using BedrockBoot.Views.TaskItem;
-using OnePointUI.Avalonia.Base.Entry;
+using Material.Avalonia.Entry;
 using OnePointUI.Avalonia.Styling.Controls.OnePointControls.Dialog;
 
 namespace BedrockBoot.Views.Control.Items;

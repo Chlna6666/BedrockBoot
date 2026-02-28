@@ -3,9 +3,10 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              xmlns:navigation="clr-namespace:OnePointUI.Avalonia.Styling.Controls.OnePointControls.Navigation;assembly=OnePointUI.Avalonia"
+             xmlns:controls="clr-namespace:Material.Avalonia.Controls;assembly=Material.Avalonia"
              mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
              x:Class="BedrockBoot.Views.Pages.RecoverFilesPage.RecoverFilesRoot">
     <Grid>
-        <navigation:NavigationFrame Name="NavigationFrame"/>
+        <controls:NavigationFrame Name="NavigationFrame"/>
     </Grid>
 </UserControl>

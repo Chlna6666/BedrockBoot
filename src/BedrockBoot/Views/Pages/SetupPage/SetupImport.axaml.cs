@@ -6,8 +6,8 @@ using BedrockBoot.Base.Entry;
 using BedrockBoot.Models.Global;
 using BedrockBoot.Views.DialogContent;
 using BedrockBoot.Views.DrawContent;
-using OnePointUI.Avalonia.Base.Entry;
-using OnePointUI.Avalonia.Base.Enum;
+using Material.Avalonia.Entry;
+using Material.Avalonia.Enum;
 using OnePointUI.Avalonia.Styling.Controls.OnePointControls.Dialog;
 
 namespace BedrockBoot.Views.Pages.SetupPage;

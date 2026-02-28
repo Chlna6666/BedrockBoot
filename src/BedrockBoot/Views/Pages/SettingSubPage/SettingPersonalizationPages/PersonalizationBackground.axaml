@@ -2,7 +2,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-             xmlns:onePointControls="clr-namespace:OnePointUI.Avalonia.Styling.Controls.OnePointControls;assembly=OnePointUI.Avalonia"
+             xmlns:onePointControls="clr-namespace:Material.Avalonia.Theme.Controls;assembly=Material.Avalonia"
              mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
              x:Class="BedrockBoot.Views.Pages.SettingSubPage.SettingPersonalizationPages.PersonalizationBackground">
     <ScrollViewer>
@@ -24,33 +24,21 @@
             </onePointControls:SettingCard>
 
             <StackPanel Name="BackgroundImageBox">
-                <onePointControls:SettingExpander Header="{DynamicResource Settings.Background.Image.Group.Title}"
-                                                  Description="{DynamicResource Settings.Background.Image.Group.Desc}"
-                                                  IsExpanded="True"
-                                                  Margin="5"
-                                                  Glyph="&#xE91B;">
-                    <StackPanel>
-                        <onePointControls:SettingCard Header="{DynamicResource Settings.Background.Image.Select.Title}"
+                <onePointControls:SettingCard Header="{DynamicResource Settings.Background.Image.Select.Title}"
                                                       Description="{DynamicResource Settings.Background.Image.Select.Desc}"
                                                       Glyph="&#xE8B0;"
-                                                      Classes="Item"
-                                                      IsClickable="True"
                                                       Click="ImportBackgroundBtn_OnClick" />
 
                         <onePointControls:SettingCard Header="{DynamicResource Settings.Background.Image.Parallax.Title}"
                                                       Description="{DynamicResource Settings.Background.Image.Parallax.Desc}"
-                                                      Glyph="&#xE81E;"
-                                                      Classes="Item"
-                                                      IsClickable="False">
+                                                      Glyph="&#xE81E;">
                             <ToggleSwitch Name="Image3D"
                                           IsCheckedChanged="Image3D_OnIsCheckedChanged"></ToggleSwitch>
                         </onePointControls:SettingCard>
 
                         <onePointControls:SettingCard Header="{DynamicResource Settings.Background.Image.Opacity.Title}"
                                                       Description="{DynamicResource Settings.Background.Image.Opacity.Desc}"
-                                                      Glyph="&#xE81E;"
-                                                      Classes="Item"
-                                                      IsClickable="False">
+                                                      Glyph="&#xE81E;">
                             <Slider Width="200"
                                     Minimum="0"
                                     Maximum="100"
@@ -61,9 +49,7 @@
 
                         <onePointControls:SettingCard Header="{DynamicResource Settings.Background.Image.Blur.Title}"
                                                       Description="{DynamicResource Settings.Background.Image.Blur.Desc}"
-                                                      Glyph="&#xF5EF;"
-                                                      Classes="Item"
-                                                      IsClickable="False">
+                                                      Glyph="&#xF5EF;">
                             <Slider Width="200"
                                     Minimum="0"
                                     Maximum="100"
@@ -71,8 +57,6 @@
                                     Name="BlurBar"
                                     ValueChanged="OptBar_OnValueChanged" />
                         </onePointControls:SettingCard>
-                    </StackPanel>
-                </onePointControls:SettingExpander>
 
                 <ListBox Name="BackgroundsList"
                          SelectionChanged="BackgroundsList_OnSelectionChanged"

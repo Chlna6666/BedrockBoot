@@ -2,11 +2,10 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-             xmlns:onePointControls="clr-namespace:OnePointUI.Avalonia.Styling.Controls.OnePointControls;assembly=OnePointUI.Avalonia"
+             xmlns:onePointControls="clr-namespace:Material.Avalonia.Theme.Controls;assembly=Material.Avalonia"
              mc:Ignorable="d" d:DesignWidth="400"
              x:Class="BedrockBoot.Views.Control.Items.GameModItem">
-    <onePointControls:SettingCard IsClickable="True"
-                                  Name="Card"
+    <onePointControls:SettingCard Name="Card"
                                   Margin="5,0,5,10"
                                   Glyph="&#xE7C3;"
                                   IsShowActionIcon="False"

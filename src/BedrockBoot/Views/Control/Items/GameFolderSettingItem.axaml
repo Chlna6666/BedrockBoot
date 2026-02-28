@@ -2,7 +2,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-             xmlns:onePointControls="clr-namespace:OnePointUI.Avalonia.Styling.Controls.OnePointControls;assembly=OnePointUI.Avalonia"
+             xmlns:onePointControls="clr-namespace:Material.Avalonia.Theme.Controls;assembly=Material.Avalonia"
              mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
              x:Class="BedrockBoot.Views.Control.Items.GameFolderSettingItem">
     <onePointControls:SettingCard Header="FolderName"
@@ -10,7 +10,6 @@
                                   Name="Card"
                                   IsFontIcon="True"
                                   IsShowActionIcon="False"
-                                  IsClickable="True"
                                   Glyph="&#xE8B7;">
         <StackPanel Orientation="Horizontal"
                     Spacing="5">

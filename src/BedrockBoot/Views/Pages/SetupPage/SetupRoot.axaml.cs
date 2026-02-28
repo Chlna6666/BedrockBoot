@@ -2,7 +2,7 @@
 using System.Linq;
 using Avalonia.Controls;
 using Avalonia.Interactivity;
-using OnePointUI.Avalonia.Base.Entry; // 确保引用了 I18nManager 所在的命名空间
+using Material.Avalonia.Entry; // 确保引用了 I18nManager 所在的命名空间
 
 namespace BedrockBoot.Views.Pages.SetupPage;
 

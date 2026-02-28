@@ -7,6 +7,7 @@ using Avalonia.Threading;
 using BedrockBoot.Base.Entry.Info;
 using BedrockBoot.Base.Enum.Search;
 using BedrockBoot.Views.Pages.DownloadPage.SearchSubPage;
+using Material.Avalonia.Controls;
 using OnePointUI.Avalonia.Styling.Controls.OnePointControls.Navigation;
 
 namespace BedrockBoot.Views.Pages.DownloadPage;

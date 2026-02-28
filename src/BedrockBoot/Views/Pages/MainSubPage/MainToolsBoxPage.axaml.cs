@@ -14,7 +14,7 @@ using BedrockBoot.Views.DialogContent;
 using BedrockBoot.Views.DialogContent.Chunker;
 using BedrockBoot.Views.Windows.SubWindows;
 using BedrockLauncher.Core;
-using OnePointUI.Avalonia.Base.Entry;
+using Material.Avalonia.Entry;
 using OnePointUI.Avalonia.Styling.Controls.OnePointControls.Dialog;
 
 namespace BedrockBoot.Views.Pages.MainSubPage;
@@ -37,8 +37,8 @@ public partial class MainToolsBoxPage : BedrockBootPage
     /// </summary>
     private void FoundLoseFilesBtn_OnClick(object? sender, RoutedEventArgs e)
     {
-        var rfw = new RecoverFilesWindow();
-        rfw.ShowDialog(GlobalModel.MainWindow);
+        /*var rfw = new RecoverFilesWindow();
+        rfw.ShowDialog(GlobalModel.MainWindow);*/
     }
 
     /// <summary>

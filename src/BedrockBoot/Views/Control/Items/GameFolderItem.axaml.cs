@@ -5,8 +5,8 @@ using Avalonia.Interactivity;
 using BedrockBoot.Base.Entry;
 using BedrockBoot.Models.Global;
 using BedrockBoot.Views.Pages.MainSubPage;
-using OnePointUI.Avalonia.Base.Entry;
-using OnePointUI.Avalonia.Base.Enum;
+using Material.Avalonia.Entry;
+using Material.Avalonia.Enum;
 using OnePointUI.Avalonia.Styling.Controls.OnePointControls.Dialog;
 
 namespace BedrockBoot.Views.Control.Items;

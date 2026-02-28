@@ -7,6 +7,7 @@ using Avalonia.Threading;
 using BedrockBoot.Base.Entry.Game.Pack.ResourcePack.CurseForge;
 using BedrockBoot.Models.Global;
 using BedrockBoot.Views.Pages.DownloadSubPage.CurseForge;
+using Material.Avalonia.Theme.Controls;
 using OnePointUI.Avalonia.Styling.Controls.OnePointControls;
 
 namespace BedrockBoot.Views.DrawContent;

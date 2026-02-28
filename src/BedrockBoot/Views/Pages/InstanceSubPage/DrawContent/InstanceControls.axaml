@@ -2,7 +2,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-             xmlns:onePointControls="clr-namespace:OnePointUI.Avalonia.Styling.Controls.OnePointControls;assembly=OnePointUI.Avalonia"
+             xmlns:onePointControls="clr-namespace:Material.Avalonia.Theme.Controls;assembly=Material.Avalonia"
              mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
              x:Class="BedrockBoot.Views.Pages.InstanceSubPage.DrawContent.InstanceControls">
     <Grid>
@@ -13,7 +13,7 @@
                            FontSize="14"
                            Text="{DynamicResource Instance.Controls.Group.Accessibility}" />
 
-                <onePointControls:SettingExpander Name="MouseLock"
+                <!--<onePointControls:SettingExpander Name="MouseLock"
                                                   Header="{DynamicResource Instance.Controls.MouseLock.Title}"
                                                   Description="{DynamicResource Instance.Controls.MouseLock.Desc}"
                                                   Glyph="&#xE72E;">
@@ -30,24 +30,21 @@
                                     Maximum="50" />
                         </onePointControls:SettingCard>
                     </StackPanel>
-                </onePointControls:SettingExpander>
+                </onePointControls:SettingExpander>-->
 
-                <onePointControls:SettingCard IsClickable="True"
-                                              Name="JumpItemBtn"
+                <onePointControls:SettingCard             Name="JumpItemBtn"
                                               Click="JumpItemBtn_OnClick"
                                               Glyph="&#xE8A7;"
                                               Header="{DynamicResource Instance.Controls.Shortcut.Title}"
                                               Description="{DynamicResource Instance.Controls.Shortcut.Desc}" />
 
-                <onePointControls:SettingCard IsClickable="True"
-                                              Name="ImportConfig"
+                <onePointControls:SettingCard             Name="ImportConfig"
                                               Click="ImportConfig_OnClick"
                                               Glyph="&#xE8AB;"
                                               Header="{DynamicResource Instance.Controls.ImportConfig.Title}"
                                               Description="{DynamicResource Instance.Controls.ImportConfig.Desc}" />
 
-                <onePointControls:SettingCard IsClickable="True"
-                                              Name="MakePack"
+                <onePointControls:SettingCard             Name="MakePack"
                                               Click="MakePack_OnClick"
                                               Glyph="&#xF012;"
                                               Header="{DynamicResource Instance.Controls.ExportPack.Title}" 
@@ -57,8 +54,7 @@
                            FontSize="14"
                            Text="{DynamicResource Instance.Controls.Group.DangerZone}" />
 
-                <onePointControls:SettingCard IsClickable="True"
-                                              Glyph="&#xE74D;"
+                <onePointControls:SettingCard             Glyph="&#xE74D;"
                                               Name="DeleteBtn"
                                               Click="DeleteBtn_OnClick"
                                               Header="{DynamicResource Instance.Controls.Delete.Title}"

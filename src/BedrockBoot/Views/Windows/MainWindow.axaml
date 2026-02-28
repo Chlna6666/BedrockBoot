@@ -3,12 +3,9 @@
                                xmlns:vm="using:BedrockBoot.ViewModels"
                                xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
                                xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-                               xmlns:windowFrame="clr-namespace:OnePointUI.Avalonia.Styling.Controls.OnePointControls.WindowFrame;assembly=OnePointUI.Avalonia"
-                               xmlns:onePointControls="clr-namespace:OnePointUI.Avalonia.Styling.Controls.OnePointControls;assembly=OnePointUI.Avalonia"
-                               xmlns:navigation="clr-namespace:OnePointUI.Avalonia.Styling.Controls.OnePointControls.Navigation;assembly=OnePointUI.Avalonia"
-                               xmlns:view="clr-namespace:OnePointUI.Avalonia.Styling.Controls.OnePointControls.View;assembly=OnePointUI.Avalonia"
+                               xmlns:onePointControls="clr-namespace:Material.Avalonia.Theme.Controls;assembly=Material.Avalonia"
                                xmlns:windows="clr-namespace:BedrockBoot.Views.Windows"
-                               xmlns:classes="clr-namespace:OnePointUI.Avalonia.Classes;assembly=OnePointUI.Avalonia"
+                               xmlns:controls="clr-namespace:Material.Avalonia.Controls;assembly=Material.Avalonia"
                                mc:Ignorable="d" d:DesignWidth="1140" d:DesignHeight="630"
                                x:Class="BedrockBoot.Views.Windows.MainWindow"
                                x:DataType="vm:MainWindowViewModel"
@@ -77,7 +74,7 @@
     </windows:BedrockBootWindow.TitleBarContentContent>
     <windows:BedrockBootWindow.MainContent>
         <Panel>
-            <navigation:NavigationFrame Name="MainFrame"
+            <controls:NavigationFrame Name="MainFrame"
                                         HorizontalAlignment="Stretch"
                                         VerticalAlignment="Stretch"
                                         Margin="0" />

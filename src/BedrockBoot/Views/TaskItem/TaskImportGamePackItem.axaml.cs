@@ -6,7 +6,7 @@ using BedrockBoot.Base.Entry.Game.Pack.Import;
 using BedrockBoot.Models.Global;
 using BedrockBoot.Models.Pack.Game.Import;
 using BedrockLauncher.Core;
-using OnePointUI.Avalonia.Base.Entry;
+using Material.Avalonia.Entry;
 using OnePointUI.Avalonia.Styling.Controls.OnePointControls.Dialog;
 
 namespace BedrockBoot.Views.TaskItem;

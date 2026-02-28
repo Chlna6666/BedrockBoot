@@ -24,8 +24,8 @@ using BedrockBoot.Views.Pages.SetupPage;
 using BedrockBoot.Views.Windows.SubWindows;
 using BedrockLauncher.Core;
 using BedrockLauncher.Core.CoreOption;
-using OnePointUI.Avalonia.Base.Entry;
-using OnePointUI.Avalonia.Base.Enum;
+using Material.Avalonia.Entry;
+using Material.Avalonia.Enum;
 using OnePointUI.Avalonia.Styling.Controls.OnePointControls.Dialog;
 using Round.SDK.Helper;
 

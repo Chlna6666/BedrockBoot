@@ -6,7 +6,7 @@ using BedrockBoot.Core.Interface.Instance;
 using BedrockBoot.LeviLamina.Models.Installer;
 using BedrockBoot.Views.DialogContent.Plugin.LeviLamina;
 using BedrockBoot.Views.TaskItem.Plugin.LeviLamina;
-using OnePointUI.Avalonia.Base.Entry;
+using Material.Avalonia.Entry;
 using OnePointUI.Avalonia.Styling.Controls.OnePointControls.Dialog;
 
 namespace BedrockBoot.Plugin.Instance;

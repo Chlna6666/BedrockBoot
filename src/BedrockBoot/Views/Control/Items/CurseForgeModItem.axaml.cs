@@ -8,7 +8,8 @@ using Avalonia.Threading;
 using BedrockBoot.Base.Entry.Game.Pack.ResourcePack.CurseForge;
 using BedrockBoot.Models.Global;
 using BedrockBoot.Views.DrawContent;
-using OnePointUI.Avalonia.Base.Entry;
+using Material.Avalonia.Entry;
+using Material.Avalonia.Theme.Controls;
 using OnePointUI.Avalonia.Styling.Controls.OnePointControls;
 
 namespace BedrockBoot.Views.Control.Items;

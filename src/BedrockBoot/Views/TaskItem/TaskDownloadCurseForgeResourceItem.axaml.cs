@@ -10,7 +10,7 @@ using BedrockBoot.Core.Models.Download;
 using BedrockBoot.Models.Global;
 using BedrockBoot.Models.Pack.Game.Archive;
 using BedrockBoot.Models.Pack.Game.ResourcePack;
-using OnePointUI.Avalonia.Base.Entry;
+using Material.Avalonia.Entry;
 
 namespace BedrockBoot.Views.TaskItem;
 

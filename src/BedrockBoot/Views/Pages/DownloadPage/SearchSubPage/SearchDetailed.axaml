@@ -2,9 +2,11 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-             xmlns:onePointControls="clr-namespace:OnePointUI.Avalonia.Styling.Controls.OnePointControls;assembly=OnePointUI.Avalonia"
+             xmlns:onePointControls="clr-namespace:Material.Avalonia.Theme.Controls;assembly=Material.Avalonia"
              xmlns:notice="clr-namespace:OnePointUI.Avalonia.Styling.Controls.OnePointControls.Notice;assembly=OnePointUI.Avalonia"
              xmlns:navigation="clr-namespace:OnePointUI.Avalonia.Styling.Controls.OnePointControls.Navigation;assembly=OnePointUI.Avalonia"
+             xmlns:notice1="clr-namespace:OnePointUI.Avalonia.Styling.Controls.OnePointControls.Notice;assembly=Material.Avalonia"
+             xmlns:navigation1="clr-namespace:OnePointUI.Avalonia.Styling.Controls.OnePointControls.Navigation;assembly=Material.Avalonia"
              mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
              x:Class="BedrockBoot.Views.Pages.DownloadPage.SearchSubPage.SearchDetailed">
     <Grid RowDefinitions="Auto,*">
@@ -79,17 +81,17 @@
             </StackPanel>
         </StackPanel>
 
-        <navigation:LotsPageFrame Grid.Row="1"
+        <navigation1:LotsPageFrame Grid.Row="1"
                                   Name="ResultPage" />
 
-        <notice:LoadCard Grid.Row="1"
+        <notice1:LoadCard Grid.Row="1"
                          HorizontalAlignment="Center"
                          VerticalAlignment="Center"
                          Name="LoadingRing"
                          BigTitle="{DynamicResource Shared.Status.Searching}"
                          Message="{DynamicResource Shared.Status.Wait}" />
 
-        <notice:InfoCard Grid.Row="1"
+        <notice1:InfoCard Grid.Row="1"
                          VerticalAlignment="Center"
                          HorizontalAlignment="Center"
                          Glyph="&#xE822;"

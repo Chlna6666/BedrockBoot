@@ -3,6 +3,7 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              xmlns:notice="clr-namespace:OnePointUI.Avalonia.Styling.Controls.OnePointControls.Notice;assembly=OnePointUI.Avalonia"
+             xmlns:notice1="clr-namespace:OnePointUI.Avalonia.Styling.Controls.OnePointControls.Notice;assembly=Material.Avalonia"
              mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
              x:Class="BedrockBoot.Views.Pages.DownloadSubPage.CurseForge.CurseForgePackBuildFile">
     <Grid>
@@ -12,13 +13,13 @@
                         Name="List" />
         </ScrollViewer>
 
-        <notice:LoadCard HorizontalAlignment="Center"
+        <notice1:LoadCard HorizontalAlignment="Center"
                          VerticalAlignment="Center"
                          BigTitle="{DynamicResource Download.Assets.Status.Loading.Title}"
                          Message="{DynamicResource Download.Assets.Status.Loading.Message}"
                          Name="LoadingRing" />
 
-        <notice:InfoCard VerticalAlignment="Center"
+        <notice1:InfoCard VerticalAlignment="Center"
                          HorizontalAlignment="Center"
                          Glyph="&#xE822;"
                          BigTitle="{DynamicResource Shared.Status.Error.Title}"

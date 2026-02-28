@@ -2,7 +2,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-             xmlns:onePointControls="clr-namespace:OnePointUI.Avalonia.Styling.Controls.OnePointControls;assembly=OnePointUI.Avalonia"
+             xmlns:onePointControls="clr-namespace:Material.Avalonia.Theme.Controls;assembly=Material.Avalonia"
              mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
              x:Class="BedrockBoot.Views.Pages.InstanceSubPage.DrawContent.InstanceInfo">
     <Grid>
@@ -42,15 +42,9 @@
                            FontSize="14"
                            Text="{DynamicResource Instance.Info.Group.Launch}" />
 
-                <onePointControls:SettingExpander Header="{DynamicResource Instance.Info.Launch.Title}"
-                                                  Description="{DynamicResource Instance.Info.Launch.Desc}"
-                                                  Margin="5"
-                                                  Glyph="&#xECAD;">
-                    <StackPanel>
-                        <onePointControls:SettingCard Glyph="&#xEC06;"
+                <onePointControls:SettingCard Glyph="&#xEC06;"
                                                       Header="{DynamicResource Instance.Info.Launch.Args.Title}"
-                                                      Description="{DynamicResource Instance.Info.Launch.Args.Desc}"
-                                                      Classes="Item">
+                                                      Description="{DynamicResource Instance.Info.Launch.Args.Desc}">
                             <TextBox Width="200"
                                      Name="InstanceArgs"
                                      TextChanged="TextTypeConfig_OnChanged" />
@@ -58,29 +52,24 @@
 
                         <onePointControls:SettingCard Glyph="&#xE70F;"
                                                       Header="{DynamicResource Instance.Info.Launch.EditMode.Title}"
-                                                      Description="{DynamicResource Instance.Info.Launch.EditMode.Desc}"
-                                                      Classes="Item">
+                                                      Description="{DynamicResource Instance.Info.Launch.EditMode.Desc}">
                             <ToggleSwitch Name="InstanceEdit"
                                           IsCheckedChanged="BoolTypeConfig_OnChanged" />
                         </onePointControls:SettingCard>
 
                         <onePointControls:SettingCard Glyph="&#xE822;"
                                                       Header="{DynamicResource Instance.Info.Launch.Mods.Title}"
-                                                      Description="{DynamicResource Instance.Info.Launch.Mods.Desc}"
-                                                      Classes="Item">
+                                                      Description="{DynamicResource Instance.Info.Launch.Mods.Desc}">
                             <ToggleSwitch Name="InstanceMod"
                                           IsCheckedChanged="BoolTypeConfig_OnChanged" />
                         </onePointControls:SettingCard>
 
                         <onePointControls:SettingCard Glyph="&#xE756;"
                                                       Header="{DynamicResource Settings.Universal.Debug.Console.Title}"
-                                                      Description="{DynamicResource Instance.Info.Launch.Console.Desc}"
-                                                      Classes="Item">
+                                                      Description="{DynamicResource Instance.Info.Launch.Console.Desc}">
                             <ToggleSwitch Name="InstanceConsole"
                                           IsCheckedChanged="BoolTypeConfig_OnChanged" />
                         </onePointControls:SettingCard>
-                    </StackPanel>
-                </onePointControls:SettingExpander>
 
                 <TextBlock Margin="5"
                            FontWeight="Bold"

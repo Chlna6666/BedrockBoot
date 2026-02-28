@@ -2,10 +2,11 @@
                        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
                        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
                        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-                       xmlns:onePointControls="clr-namespace:OnePointUI.Avalonia.Styling.Controls.OnePointControls;assembly=OnePointUI.Avalonia"
-                       xmlns:items="clr-namespace:OnePointUI.Avalonia.Styling.Controls.OnePointControls.Items;assembly=OnePointUI.Avalonia"
+                       xmlns:onePointControls="clr-namespace:Material.Avalonia.Theme.Controls;assembly=Material.Avalonia"
+                       xmlns:items="clr-namespace:Material.Avalonia.Theme.Controls;assembly=Material.Avalonia"
                        xmlns:notice="clr-namespace:OnePointUI.Avalonia.Styling.Controls.OnePointControls.Notice;assembly=OnePointUI.Avalonia"
                        xmlns:entry="clr-namespace:BedrockBoot.Base.Entry;assembly=BedrockBoot.Base"
+                       xmlns:notice1="clr-namespace:OnePointUI.Avalonia.Styling.Controls.OnePointControls.Notice;assembly=Material.Avalonia"
                        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
                        x:Class="BedrockBoot.Views.Pages.MainSubPage.MainManager">
     <entry:BedrockBootPage.HeaderView>
@@ -75,7 +76,7 @@
                         </Button>
                     </Grid>
 
-                    <notice:InfoCard HorizontalAlignment="Center"
+                    <notice1:InfoCard HorizontalAlignment="Center"
                                      VerticalAlignment="Center"
                                      IsVisible="False"
                                      Name="FolderNull"
@@ -143,13 +144,13 @@
                                         Name="GameList" />
                         </ScrollViewer>
 
-                        <notice:InfoCard HorizontalAlignment="Center"
+                        <notice1:InfoCard HorizontalAlignment="Center"
                                          VerticalAlignment="Center"
                                          Name="GamesNull"
                                          BigTitle="{DynamicResource Manager.Games.Empty.Title}"
                                          Message="{DynamicResource Manager.Games.Empty.Message}" />
 
-                        <notice:LoadCard HorizontalAlignment="Center"
+                        <notice1:LoadCard HorizontalAlignment="Center"
                                          VerticalAlignment="Center"
                                          IsVisible="False"
                                          Name="GamesLoad"

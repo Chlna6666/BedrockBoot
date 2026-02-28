@@ -8,7 +8,8 @@ using Avalonia.Media;
 using BedrockBoot.Interface;
 using BedrockBoot.Models.Global;
 using BedrockBoot.Views.Pages.MainSubPage;
-using OnePointUI.Avalonia.Base.Entry;
+using Material.Avalonia.Entry;
+using Material.Avalonia.Theme.Controls;
 using OnePointUI.Avalonia.Styling.Controls.OnePointControls;
 
 namespace BedrockBoot.Views.Pages.OtherPage;

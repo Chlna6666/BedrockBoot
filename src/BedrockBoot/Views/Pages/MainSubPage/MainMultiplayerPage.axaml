@@ -3,9 +3,10 @@
                  xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
                  xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
                  xmlns:entry="clr-namespace:BedrockBoot.Base.Entry;assembly=BedrockBoot.Base"
-                 xmlns:onePointControls="clr-namespace:OnePointUI.Avalonia.Styling.Controls.OnePointControls;assembly=OnePointUI.Avalonia"
+                 xmlns:onePointControls="clr-namespace:Material.Avalonia.Theme.Controls;assembly=Material.Avalonia"
                  xmlns:navigation="clr-namespace:OnePointUI.Avalonia.Styling.Controls.OnePointControls.Navigation;assembly=OnePointUI.Avalonia"
                  xmlns:notice="clr-namespace:OnePointUI.Avalonia.Styling.Controls.OnePointControls.Notice;assembly=OnePointUI.Avalonia"
+                 xmlns:controls="clr-namespace:Material.Avalonia.Controls;assembly=Material.Avalonia"
                  mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
                  x:Class="BedrockBoot.Views.Pages.MainSubPage.MainMultiplayerPage">
     <entry:BedrockBootPage.HeaderView>
@@ -53,9 +54,9 @@
                 </StackPanel>
             </StackPanel>
             
-            <navigation:NavigationFrame Margin="10,0,0,0"
+            <controls:NavigationFrame Margin="10,0,0,0"
                                         Grid.Column="1"
-                                        Name="MainFrame"></navigation:NavigationFrame>
+                                        Name="MainFrame"></controls:NavigationFrame>
         </Grid>
     </Grid>
 </entry:BedrockBootPage>

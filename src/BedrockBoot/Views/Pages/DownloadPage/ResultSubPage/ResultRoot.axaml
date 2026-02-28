@@ -5,9 +5,9 @@
     x:Class="BedrockBoot.Views.Pages.DownloadPage.ResultSubPage.ResultRoot"
     xmlns="https://github.com/avaloniaui"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-    xmlns:items="clr-namespace:OnePointUI.Avalonia.Styling.Controls.OnePointControls.Items;assembly=OnePointUI.Avalonia"
+    xmlns:items="clr-namespace:Material.Avalonia.Theme.Controls;assembly=Material.Avalonia"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-    xmlns:onePointControls="clr-namespace:OnePointUI.Avalonia.Styling.Controls.OnePointControls;assembly=OnePointUI.Avalonia"
+    xmlns:onePointControls="clr-namespace:Material.Avalonia.Theme.Controls;assembly=Material.Avalonia"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
     <Grid>
         <ScrollViewer Margin="5,15">

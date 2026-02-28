@@ -1,6 +1,7 @@
 ﻿using BedrockBoot.Base.Entry;
 using BedrockBoot.Interface;
 using BedrockBoot.Views.Pages.SettingSubPage;
+using Material.Avalonia.Controls;
 using OnePointUI.Avalonia.Styling.Controls.OnePointControls.Navigation;
 using OnePointUI.Avalonia.Styling.Controls.OnePointControls.Navigation.Breadcrumb;
 

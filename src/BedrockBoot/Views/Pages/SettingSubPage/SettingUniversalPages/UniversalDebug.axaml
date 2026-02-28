@@ -2,7 +2,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-             xmlns:onePointControls="clr-namespace:OnePointUI.Avalonia.Styling.Controls.OnePointControls;assembly=OnePointUI.Avalonia"
+             xmlns:onePointControls="clr-namespace:Material.Avalonia.Theme.Controls;assembly=Material.Avalonia"
              mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
              x:Class="BedrockBoot.Views.Pages.SettingSubPage.SettingUniversalPages.UniversalDebug">
     <ScrollViewer>
@@ -26,8 +26,7 @@
             
             <onePointControls:SettingCard Header="{DynamicResource Settings.Universal.Debug.Exception.Title}"
                                           Description="{DynamicResource Settings.Universal.Debug.Exception.Desc}"
-                                          IsClickable="True"
-                                          Name="ExceptionBtn"
+                                                  Name="ExceptionBtn"
                                           Click="ExceptionBtn_OnClick"
                                           Glyph="&#xEBE8;">
             </onePointControls:SettingCard>

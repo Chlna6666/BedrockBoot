@@ -2,21 +2,20 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:onePointControls="clr-namespace:OnePointUI.Avalonia.Styling.Controls.OnePointControls;assembly=OnePointUI.Avalonia"
-        xmlns:navigation="clr-namespace:OnePointUI.Avalonia.Styling.Controls.OnePointControls.Navigation;assembly=OnePointUI.Avalonia"
-        xmlns:info="clr-namespace:OnePointUI.Avalonia.Styling.Controls.OnePointControls.Notice.Info;assembly=OnePointUI.Avalonia"
-        xmlns:dialog="clr-namespace:OnePointUI.Avalonia.Styling.Controls.OnePointControls.Dialog;assembly=OnePointUI.Avalonia"
-        xmlns:items="clr-namespace:OnePointUI.Avalonia.Styling.Controls.OnePointControls.Items;assembly=OnePointUI.Avalonia"
-        xmlns:view="clr-namespace:OnePointUI.Avalonia.Styling.Controls.OnePointControls.View;assembly=OnePointUI.Avalonia"
-        xmlns:notice="clr-namespace:OnePointUI.Avalonia.Styling.Controls.OnePointControls.Notice;assembly=OnePointUI.Avalonia"
-        xmlns:classes="clr-namespace:OnePointUI.Avalonia.Classes;assembly=OnePointUI.Avalonia"
+        xmlns:onePointControls="clr-namespace:Material.Avalonia.Theme.Controls;assembly=Material.Avalonia"
+        xmlns:items="clr-namespace:Material.Avalonia.Theme.Controls;assembly=Material.Avalonia"
+        xmlns:controls="clr-namespace:Material.Avalonia.Controls;assembly=Material.Avalonia"
+        xmlns:classes="clr-namespace:Material.Avalonia.Classes;assembly=Material.Avalonia"
+        xmlns:animationBackground="clr-namespace:Material.Avalonia.Controls.AnimationBackground;assembly=Material.Avalonia"
+        xmlns:info="clr-namespace:OnePointUI.Avalonia.Styling.Controls.OnePointControls.Notice.Info;assembly=Material.Avalonia"
+        xmlns:dialog="clr-namespace:OnePointUI.Avalonia.Styling.Controls.OnePointControls.Dialog;assembly=Material.Avalonia"
+        xmlns:notice="clr-namespace:OnePointUI.Avalonia.Styling.Controls.OnePointControls.Notice;assembly=Material.Avalonia"
         mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
         x:Class="BedrockBoot.Views.Windows.BedrockBootWindow"
         ExtendClientAreaToDecorationsHint="True"
         ExtendClientAreaTitleBarHeightHint="-1"
         ExtendClientAreaChromeHints="NoChrome"
         WindowStartupLocation="CenterScreen"
-        FontFamily="resm:OnePointUI.Avalonia.Assets.Fonts.DinPro.ttf?assembly=OnePointUI.Avalonia#DINPro"
         Title="BedrockBootWindow">
     <Grid>
         <Grid Background="{DynamicResource BackgroundBrush}"
@@ -35,7 +34,7 @@
                                                  Duration="0:0:0.58"></ThicknessTransition>
                         </Transitions>
                     </Grid.Transitions>
-                    <view:AnimationBackground Name="AnimationBackground" />
+                    <animationBackground:AnimationBackground Name="AnimationBackground" />
 
                     <Grid Name="AccentBackgroundBox"
                           Background="{DynamicResource AccentBackgroundBrush}"
@@ -133,7 +132,7 @@
                                            Name="BorderTitle"
                                            Text="Title" />
 
-                                <navigation:NavigationFrame Grid.Row="1"
+                                <controls:NavigationFrame Grid.Row="1"
                                                             Name="Frame" />
                             </Grid>
                         </Border>

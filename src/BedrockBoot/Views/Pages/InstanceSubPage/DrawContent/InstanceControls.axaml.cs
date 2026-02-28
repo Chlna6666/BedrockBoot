@@ -10,8 +10,8 @@ using BedrockBoot.Interface;
 using BedrockBoot.Models.Global;
 using BedrockBoot.Views.DialogContent;
 using IWshRuntimeLibrary;
-using OnePointUI.Avalonia.Base.Entry;
-using OnePointUI.Avalonia.Base.Enum;
+using Material.Avalonia.Entry;
+using Material.Avalonia.Enum;
 using OnePointUI.Avalonia.Styling.Controls.OnePointControls.Dialog;
 using File = System.IO.File;
 
@@ -27,7 +27,7 @@ public partial class InstanceControls : ISetting
         InitializeComponent();
 
 #if RELEASE
-        MouseLock.IsVisible = GlobalModel.FunctionOption.IsEnableMouseLock;
+        // MouseLock.IsVisible = GlobalModel.FunctionOption.IsEnableMouseLock;
 #endif
     }
 

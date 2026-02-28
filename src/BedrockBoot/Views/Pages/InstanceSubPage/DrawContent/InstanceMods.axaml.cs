@@ -11,7 +11,7 @@ using BedrockBoot.Models.Global;
 using BedrockBoot.Models.Pack.Game.Mods;
 using BedrockBoot.Views.Control.Items;
 using BedrockBoot.Views.DialogContent;
-using OnePointUI.Avalonia.Base.Entry;
+using Material.Avalonia.Entry;
 using OnePointUI.Avalonia.Styling.Controls.OnePointControls.Dialog;
 using Path = System.IO.Path;
 

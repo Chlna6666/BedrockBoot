@@ -6,7 +6,7 @@ using BedrockBoot.Base.Entry.Game.Pack.Isolation;
 using BedrockBoot.Base.Entry.Progress;
 using BedrockBoot.Models.Global;
 using BedrockBoot.Models.Pack.Game.Isolation;
-using OnePointUI.Avalonia.Base.Entry;
+using Material.Avalonia.Entry;
 using OnePointUI.Avalonia.Styling.Controls.OnePointControls.Dialog;
 
 namespace BedrockBoot.Views.DialogContent;

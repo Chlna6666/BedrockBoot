@@ -13,7 +13,8 @@ using BedrockBoot.Models.Global;
 using BedrockBoot.Views.DrawContent;
 using BedrockLauncher.Core;
 using BedrockLauncher.Core.VersionJsons;
-using OnePointUI.Avalonia.Base.Entry;
+using Material.Avalonia.Entry;
+using Material.Avalonia.Theme.Controls;
 using OnePointUI.Avalonia.Styling.Controls.OnePointControls;
 
 namespace BedrockBoot.Views.Pages.DownloadSubPage;
@@ -153,7 +154,6 @@ public partial class DownloadGamePage : UserControl, IDisposable
                     {
                         Header = x.ID,
                         Description = $"{x.Type} | {x.BuildType} | {x.Date}",
-                        IsClickable = true,
                         Margin = new Thickness(5, 0, 5, 10),
                         ImageIcon = GetImage(iconPath)
                     };

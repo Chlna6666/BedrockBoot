@@ -11,7 +11,8 @@ using BedrockBoot.Interface;
 using BedrockBoot.Models.Global;
 using BedrockBoot.Models.Helper.ExceptionHelper;
 using BedrockBoot.Views.Pages.MainSubPage;
-using OnePointUI.Avalonia.Base.Entry;
+using Material.Avalonia.Entry;
+using Material.Avalonia.Theme.Controls;
 using OnePointUI.Avalonia.Styling.Controls.OnePointControls;
 
 namespace BedrockBoot.Views.Pages.SettingSubPage.SettingUniversalPages;
@@ -69,8 +70,7 @@ public partial class UniversalException : ISettingPage
                     {
                         Header = re.ErrorTitle,
                         Description = description,
-                        Glyph = "\uE730",
-                        IsClickable = true
+                        Glyph = "\uE730"
                     };
 
                     item.Click += async (s, e) =>
